@@ -1,0 +1,268 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+  html,body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
+#header-text{
+  margin-top: 140px;
+}
+.header-img{
+  width:100%;
+  margin-top:40px;
+}
+#categories-img{
+  width:250px;
+}
+.accordion {
+  position: relative;
+  width: 350px;
+  margin-left: 40px;
+}
+
+.title {
+  margin-top: 20px;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.content-accordion {
+  margin-top: 35px;
+  margin-right: 50px;
+}
+
+.question-answer {
+  width: 50%;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.question {
+  display: flex;
+  justify-content: space-between;
+}
+
+.accordion-img {
+  position: relative;
+  width: 320px;
+}
+
+.title-question {
+  margin: 1.4rem 0rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #000;
+}
+
+.question-btn {
+  font-size: 1.5rem;
+  background: transparent;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+.up-icon {
+  display: none;
+}
+
+.answer {
+  font-size: 1.2rem;
+  line-height: 0.8;
+  display: none;
+}
+
+.show-text .answer {
+  display: block;
+}
+
+.show-text .up-icon {
+  display: inline;
+}
+
+.show-text .down-icon {
+  display: none;
+}
+
+.container {
+  position: relative;
+
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle1 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+.middle2 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}.middle3 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.container:hover .image {
+   opacity:0.4;
+}
+
+.container:hover .middle1 {
+  opacity: 1;
+}
+.container:hover .middle2 {
+  opacity: 1;
+}
+.container:hover .middle3 {
+  opacity: 1;
+}
+#pic{
+  width:200px;
+  position: relative;
+}
+
+
+.text {
+  background-color: #04AA6D;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+#categories-btn{
+margin-left:120px;
+margin-top: 10px; 
+}
+#aliceblue-bg{
+  background-color: aliceblue;
+}
+.payment-image{
+  width:330px;
+  height:300px;
+  position:relative;
+  right:30px
+}
+#card:hover{
+  box-shadow: 5px 5px 2px gray;
+      }
+#featured-products{
+  background-color:aliceblue;
+  height:130vh;
+  margin-top: 940px;
+}
+.about-header-img{
+  width:70%;
+}
+#our-brand-logo{
+  margin-top: 120px;
+}
+#our-brand-logo-2{
+  margin-top: 120px;
+  margin-left: 200px;
+}
+
+#our-brand-logo-img{
+  width:100px;
+}
+i{
+    margin-left: 16px;
+}
+#logo{
+    font-size:30px;
+    margin-right: 30px;
+}
+.nav-item{
+    margin-left: 100px;
+}
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.header{
+  background-color:  #f5f5f5;
+}
+
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+#header-about{
+  margin-top: 130px;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+#box:hover{
+  background-color: #59ab6e;
+  box-shadow: #59ab6e;
+  border-color: #59ab6e;
+  color:white;
+  
+}
+#box:hover i{
+  background-color: #59ab6e;
+  box-shadow: #59ab6e;
+  border-color: #59ab6e;
+  color:white;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@media(max-width:450px){
+ footer{
+   margin-top: 980px;
+}
+}
+
